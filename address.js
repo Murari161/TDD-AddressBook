@@ -16,6 +16,10 @@ let Addbook = [
         "number" : 123456
     }
 ]
+
+for (let i = 0; i < Addbook.length; i++) {
+    console.log(Addbook[i]);
+  }
 console.log(Addbook[0]["firstname"])
 
 
