@@ -2,7 +2,7 @@ const assert    = require('chai').assert;
 const expect    = require('chai').expect;
 const Addbook = require('../address')
 
-describe('Return the nth term n a fibonaci series', function(){   
+describe('Tests on address book', function(){   
     
 
     //First Test
