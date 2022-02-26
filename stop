@@ -1,0 +1,21 @@
+[33mcommit 1123ef8095fcc07c2ffd157c4b9ec92923d2b0b6[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: unknown <murarijoshua1@gmail.com>
+Date:   Wed Feb 23 16:41:02 2022 +0300
+
+    trying array retrieval
+
+[1mdiff --git a/address.js b/address.js[m
+[1mindex 86828ab..9dbf8b7 100644[m
+[1m--- a/address.js[m
+[1m+++ b/address.js[m
+[36m@@ -16,6 +16,10 @@[m [mlet Addbook = [[m
+         "number" : 123456[m
+     }[m
+ ][m
+[32m+[m
+[32m+[m[32mfor (let i = 0; i < Addbook.length; i++) {[m
+[32m+[m[32m    console.log(Addbook[i]);[m
+[32m+[m[32m  }[m
+ console.log(Addbook[0]["firstname"])[m
+ [m
+ [m
