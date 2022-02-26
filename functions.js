@@ -37,9 +37,9 @@ function FindContactByFirstname (args){
 // console.log(finder)
 // display();
 // console.log(Addbook.length);
-FindContactByFirstname("Joshua3")
+// FindContactByFirstname("Joshua3")
 
 
 
 
-module.exports
+module.exports = FindContactByFirstname;
