@@ -12,15 +12,21 @@ function display(){
 //     "lastname" : "Murari3",
 //     "number" : 123456
 // })
-Addbook.unshift({
-    "firstname" : "Joshua3",
-    
-})
-Addbook.unshift({
-    "lastname" : "Murari3",
-    
-})
+function AddContact(){
+    Addbook.unshift({
+        "firstname" : "Joshua4",
+        "lastname" : "Murari4",
+        "number" : 123456
+    })
+;}
+function DeleteContact(){
+    Addbook.splice(0,0)
+;}
 
+
+// AddContact();
+AddContact();
+// DeleteContact();
 display();
 console.log(Addbook.length);
 
