@@ -7,10 +7,18 @@ function display(){
 
 // display();
 
+// Addbook.unshift({
+//     "firstname" : "Joshua3",
+//     "lastname" : "Murari3",
+//     "number" : 123456
+// })
 Addbook.unshift({
     "firstname" : "Joshua3",
+    
+})
+Addbook.unshift({
     "lastname" : "Murari3",
-    "number" : 123456
+    
 })
 
 display();
