@@ -10,9 +10,7 @@ describe('Tests on address book', function(){
     //     assert.equal(fibonacci(1), 1);
     // });
     it('Test of array', function(){
-        expect(Addbook).to.eql({ firstname: 'Joshua', lastname: 'Murari', number: 123456 },
-        { firstname: 'Joshua2', lastname: 'Murari2', number: 123456 },
-        { firstname: 'Joshua3', lastname: 'Murari3', number: 123456 });
+        expect(Addbook2).to.be.an('array')
     });
     
 });

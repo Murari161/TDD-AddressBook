@@ -17,10 +17,10 @@ let Addbook = [
     }
 ]
 
-for (let i = 0; i < Addbook.length; i++) {
-    console.log(Addbook[i]);
-  }
-console.log(Addbook[0]["firstname"])
+// for (let i = 0; i < Addbook.length; i++) {
+//     console.log(Addbook[i]);
+//   }
+// console.log(Addbook[0]["firstname"])
 
 
 
