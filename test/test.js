@@ -15,4 +15,11 @@ describe('Tests on address book', function(){
     it('Test of reference to keys', function(){
         expect(Addbook).to.have.any.keys("0", "1", "2");
     });
+    it('Test for properties', function(){
+        expect(Addbook).to.have.a.property('{
+            "firstname" : "Joshua",
+            "lastname" : "Murari",
+            "number" : 123456
+        }');
+    });
 });
