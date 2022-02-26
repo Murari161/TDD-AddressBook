@@ -25,10 +25,12 @@ function DeleteContact(){
 
 
 // AddContact();
-AddContact();
+// AddContact();
 // DeleteContact();
-display();
-console.log(Addbook.length);
+let finder = Addbook.find(finder => Addbook.firstname === "Joshua2");
+console.log(finder)
+// display();
+// console.log(Addbook.length);
 
 
 

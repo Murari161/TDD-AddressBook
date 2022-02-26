@@ -16,6 +16,8 @@ let Addbook = [
         "number" : 123456
     }
 ]
+let finder = Addbook.find(finder => Addbook.firstname === "Joshua2");
+console.log(finder)
 
 
 // for (let i = 0; i < Addbook.length; i++) {
