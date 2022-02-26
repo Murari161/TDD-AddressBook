@@ -10,7 +10,9 @@ describe('Tests on address book', function(){
     //     assert.equal(fibonacci(1), 1);
     // });
     it('Test of array', function(){
-        expect(Addbook2).to.be.an('array')
+        expect(Addbook).to.be.an('array')
     });
-    
+    it('Test of reference to keys', function(){
+        expect(Addbook).to.have.any.keys("0", "1", "2");
+    });
 });
