@@ -27,10 +27,17 @@ function DeleteContact(){
 // AddContact();
 // AddContact();
 // DeleteContact();
-let finder = Addbook.find(finder => Addbook.firstname === "Joshua2");
-console.log(finder)
+
+function FindContactByFirstname (args){
+    let names = Addbook.find(named => named.firstname === "Joshua3");
+    console.log(names);
+} 
+
+
+// console.log(finder)
 // display();
 // console.log(Addbook.length);
+FindContactByFirstname("Joshua3")
 
 
 

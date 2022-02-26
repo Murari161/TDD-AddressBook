@@ -1,6 +1,11 @@
 //
 let Addbook = [
     {
+        "firstname" : "Joshua",
+        "lastname" : "Murari",
+        "number" : 123456
+    },
+    {
         "firstname" : "Joshua1",
         "lastname" : "Murari1",
         "number" : 123456
@@ -16,8 +21,8 @@ let Addbook = [
         "number" : 123456
     }
 ]
-let finder = Addbook.find(finder => Addbook.firstname === "Joshua2");
-console.log(finder)
+// let finder = Addbook.find(finder => finder.firstname === "Joshua2");
+// console.log(finder)
 
 
 // for (let i = 0; i < Addbook.length; i++) {

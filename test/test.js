@@ -1,6 +1,7 @@
 const assert    = require('chai').assert;
 const expect    = require('chai').expect;
 const Addbook = require('../address')
+const FindContactByFirstname = require('../functions')
 
 describe('Tests on address book', function(){   
     
@@ -21,5 +22,8 @@ describe('Tests on address book', function(){
             "lastname" : "Murari",
             "number" : 123456
     });    
+    });
+    it('Returns a contact given firstname', function(){
+        assert.equal(FindContactByFirstname(), { firstname: 'Joshua3', lastname: 'Murari3', number: 123456 });
     });
 });
