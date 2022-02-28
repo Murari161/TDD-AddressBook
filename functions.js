@@ -28,7 +28,7 @@ function DeleteContact(){
 // AddContact();
 // DeleteContact();
 
-function FindContactByFirstname (args){
+function FindContactByFirstname (){
     let names = Addbook.find(named => named.firstname === "Joshua3");
     console.log(names);
 } 
@@ -37,7 +37,7 @@ function FindContactByFirstname (args){
 // console.log(finder)
 // display();
 // console.log(Addbook.length);
-// FindContactByFirstname("Joshua3")
+FindContactByFirstname()
 
 
 

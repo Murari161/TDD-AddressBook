@@ -24,6 +24,7 @@ describe('Tests on address book', function(){
     });    
     });
     it('Returns a contact given firstname', function(){
-        assert.equal(FindContactByFirstname(), undefined);
+        assert.equal(FindContactByFirstname(), { firstname: 'Joshua3', lastname: 'Murari3', number: 123456 });
     });
 });
+console.log(FindContactByFirstname);
